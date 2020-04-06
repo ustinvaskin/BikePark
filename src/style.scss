@@ -1,0 +1,100 @@
+*{
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+}
+body{
+  min-height: 100%;
+  background-color:  rgb(57,66,78);
+
+
+}
+
+#start-green{
+  font-size: 16px;
+  color: rgb(102, 204, 141)
+}
+#finish-red{
+  color: red;
+  font-size:16px;
+}
+table {
+  font-size: 14px;
+
+}
+#center2{
+  display:flex;
+  justify-content: center;
+}
+
+.button-center{
+  text-align: center;
+}
+button:active{
+  background-color: rgb(102, 204, 141);
+}
+button {
+  margin: 10px 0
+}
+ #button1{
+  width: 200px;
+  margin: 10px;
+ }
+ img.padd{
+   margin: 5px;
+   background-color: transparent;
+ }
+ p{
+   font-size: 12px;
+ }
+ input{
+   width: 200px;
+   height: 25px;
+   font-size: 12px;
+ }
+ .postcode{
+  border: 1px solid  rgb(57,66,78);
+ }
+ 
+ .title{
+  font-family: 'Istok Web', sans-serif;
+  font-size: 36px;
+  color: rgb(57,66,78);
+    h1 {
+      font-size: 44px;
+      font-weight: bold;
+      color: rgb(255,255,255)
+    }
+ }
+
+ .subtitle{
+  font-family: 'Istok Web', sans-serif;
+  font-weight: 500;
+ }
+ .hero{
+   background-image: url('./components/Images/background-main.jpg');
+   height: 100%;
+
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+    .subtitle{
+      color: white;
+    }
+ }
+.bold {
+  font-weight: 600;
+  color: rgb(102, 204, 141)
+}
+
+ .section {
+
+ .container {
+   background-color: rgb(241,241,241);
+   padding: 10px;
+ }
+}
+#background-transparent{
+  background-color: transparent;
+}
